@@ -18,18 +18,6 @@ def top_k_elements(nums , k):
     return final
 
 
-    # return hash_table
-    # values = list(hash_table.values())
-    # values.sort()
-    # values.reverse()
-    # goal = values[:k]
-    # final = []
-    # for key in goal:
-    #     final_keys = hash_table.get(key)
-    #     final.append(final_keys)
-
-    return final
-
         
 
 
