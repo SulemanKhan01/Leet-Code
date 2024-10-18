@@ -7,8 +7,13 @@ def rotate(nums , k):
     for i in range(k):
         final.append(nums[-1])
         nums.pop()
+    new_final = final[::-1]
+    for num in nums:
+        if num in new_final:
+            return new_final
+        new_final.append(num)
 
-    return final[::-1]
+    return new_final
 
 nums = [1,2,3,4,5,6,7]
 k = 3
