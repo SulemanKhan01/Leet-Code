@@ -3,9 +3,6 @@ def threeSum(nums):
     nums.sort()
     for i , t in enumerate(nums):
 
-        if t > 0:
-            break
-
         if i > 0 and t == nums[i-1]:
             continue
 
@@ -32,6 +29,7 @@ def threeSum(nums):
             
 
 nums = [-1,0,1,2,-1,-4]
+num = [2,2,0,0,-2,-2]
 
 print(threeSum(nums))
 
