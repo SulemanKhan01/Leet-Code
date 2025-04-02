@@ -17,7 +17,7 @@ def valid_parentheses(string):
     if len(stack) == 0:
         return True
     else:
-        False
+        return False
 
 print(valid_parentheses("[[(())]]"))
 

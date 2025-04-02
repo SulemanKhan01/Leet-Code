@@ -18,7 +18,13 @@ def top_k_elements(nums , k):
     return final
 
 
-        
+# # Top K element using List
+
+# def top_k(nums , k):
+#     check = []
+#     for num in nums:
+#         if num in check:
+
 
 
 
